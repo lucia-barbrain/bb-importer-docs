@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BarBrain Product Importer - User Guide</title>
+  <meta name="description" content="BarBrain Product Importer User Guide">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <style>
+    :root {
+      --theme-color: #4A90A4;
+      --code-theme-background: #f5f5f5;
+      --code-inline-background: #f0f0f0;
+    }
+    .markdown-section table {
+      display: table;
+      width: 100%;
+    }
+    .markdown-section img {
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 1em 0;
+    }
+    blockquote {
+      border-left: 4px solid #f0ad4e;
+      background: #fcf8e3;
+      padding: 10px 15px;
+    }
+    /* Tip boxes */
+    .tip {
+      border-left: 4px solid #4A90A4;
+      background: #e8f4fd;
+      padding: 12px 16px;
+      margin: 1em 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .tip strong {
+      color: #4A90A4;
+    }
+    /* Warning boxes */
+    .warning {
+      border-left: 4px solid #f0ad4e;
+      background: #fcf8e3;
+      padding: 12px 16px;
+      margin: 1em 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .warning strong {
+      color: #c09853;
+    }
+    /* Button styles */
+    .button-highlight {
+      display: inline-block;
+      background: #4A90A4;
+      color: white !important;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 0.9em;
+    }
+    .button-secondary {
+      display: inline-block;
+      background: #f5f5f5;
+      color: #333 !important;
+      padding: 4px 12px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      font-weight: 500;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      name: 'BarBrain Product Importer',
+      nameLink: '/',
+      repo: '',
+      loadSidebar: false,
+      auto2top: true,
+      maxLevel: 3,
+      subMaxLevel: 2,
+      homepage: 'README.md',
+      search: {
+        placeholder: 'Search documentation',
+        noData: 'No results',
+        depth: 3
+      }
+    }
+  </script>
+  <!-- Docsify core -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Search plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <!-- Copy code button -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+</body>
+</html>

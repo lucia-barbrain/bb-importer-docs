@@ -27,12 +27,20 @@ This is where you'll select which bar account to import products into and upload
 
 2. **Select Bar** – Use the dropdown menu to choose the specific bar account where you want to import products.
 
-3. **Upload Excel File** – Click <span class="button-secondary">Choose File</span> and select your Excel spreadsheet (.xlsx or .xls format).
+3. **Select Shelf (optional)** – Once a bar is selected, a shelf dropdown will appear showing all shelves for that bar. Pick the specific shelf where the imported products should be placed. If you skip this, products will be assigned to the bar's default shelf.
 
-4. Click the <span class="button-highlight">Parse File</span> button to process your spreadsheet.
+   Shelves are grouped by their parent-child hierarchy: parent shelves appear as group headers, with their child shelves indented below.
+
+4. **Upload Excel File** – Click <span class="button-secondary">Choose File</span> and select your Excel spreadsheet (.xlsx or .xls format).
+
+5. Click the <span class="button-highlight">Parse File</span> button to process your spreadsheet.
 
 <div class="tip">
 <strong>💡 Tip:</strong> Make sure your Excel file is in .xlsx or .xls format. Other file types won't be accepted.
+</div>
+
+<div class="tip">
+<strong>💡 Tip:</strong> Selecting a specific shelf helps keep your inventory organized. If you're unsure which shelf to use, leave it on the default option and reassign products later from the app.
 </div>
 
 ---
@@ -152,7 +160,7 @@ Here's a handy summary of the import workflow:
 
 | Step | What to Do | Key Button |
 |------|------------|------------|
-| **1** | Select bar, upload Excel file | Parse File |
+| **1** | Select bar, choose shelf (optional), upload Excel file | Parse File |
 | **2** | Review products, check for issues | Find Existing Matches |
 | **3** | Accept or reject suggested matches | Apply & Generate SQL |
 | **4** | Review summary, run import | Execute Import |
@@ -167,6 +175,7 @@ If you run into any issues during the import process, here are some common solut
 |---------|----------|
 | **File won't upload** | Make sure it's an .xlsx or .xls file |
 | **Can't find your bar** | Try filtering by your email address first |
+| **No shelves showing** | Make sure a bar is selected first. If the bar has no shelves, you can skip shelf selection |
 | **Invalid categories showing** | Check that your spreadsheet uses the correct category names |
 | **Unsure about a match** | Use "Select for manual match" to search for the correct product yourself |
 
